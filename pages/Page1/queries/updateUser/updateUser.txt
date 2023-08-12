@@ -1,0 +1,3 @@
+UPDATE public."Users"
+SET firstname = {{firstnameInput.text}} , lastname = {{lastnameInput.text}}
+WHERE public."Users".id={{Table1.selectedRow.id}};

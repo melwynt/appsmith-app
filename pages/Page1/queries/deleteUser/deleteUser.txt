@@ -1,0 +1,1 @@
+DELETE FROM public."Users" WHERE id={{Table1.selectedRow.id}};

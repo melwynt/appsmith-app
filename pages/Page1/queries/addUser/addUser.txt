@@ -1,0 +1,1 @@
+INSERT INTO public."Users" (firstname, lastname) VALUES ({{firstnameInputCreate.text}}, {{lastnameInputCreate.text}});

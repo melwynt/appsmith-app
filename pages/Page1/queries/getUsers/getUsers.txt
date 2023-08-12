@@ -1,0 +1,1 @@
+SELECT * FROM public."Users" ORDER BY id LIMIT 10 OFFSET {{(Table1.pageNo - 1) * 10}};
